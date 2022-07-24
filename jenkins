@@ -12,6 +12,7 @@ pipeline {
             agent { docker 'openjdk:8-jre' } 
             steps {
                 echo 'Hello, JDK'
+                <help and comment?>>>>
                 sh 'java -version'
             }
         }
